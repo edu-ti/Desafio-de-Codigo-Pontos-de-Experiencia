@@ -6,8 +6,11 @@
 let num1 = parseInt(gets());
 let num2 = parseInt(gets());
 
-//TODO: Implemente a lógica para exibir o xpGanho:
-const xpGanho = ;
+while(num2 > 101){
+  print("Digite um número menor que 100")
+}
+
+const xpGanho = num1 * num2 * 100;
 
 // Imprime a quantidade de XP ganho
 print("Voce ganhou " + xpGanho + " XP!");
